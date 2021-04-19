@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="//cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -43,6 +44,7 @@
       <li><a href="#!" @click="beranda" id="homeSideNav" class="hoverable"><i class="material-icons">home</i>Beranda</a></li>
       <li><a href="#!" @click="daftarKitab" class="hoverable"><i class="material-icons">healing</i>Daftar Kitab</a></li>
       <li><a href="#!" @click="cariHadisKata" class="hoverable"><i class="material-icons">healing</i>Cari Hadis (Kata)</a>
+      <li><a href="#!" @click="cariHadisStatus" class="hoverable"><i class="material-icons">healing</i>Cari Hadis (Status)</a></li>
       </li>
       <!-- <li><a href="#!" class="hoverable"><i class="material-icons">history</i>History Pengujian</a></li> -->
       <li><a href="../index.html" class="hoverable"><i class="material-icons">undo</i>Log Out</a></li>
@@ -71,6 +73,7 @@
   <script src="../js/jquery.js"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+  <script type="text/javascript" src="//cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
   <script type="text/javascript" src="../js/resamble.js"></script>
   <script type="text/javascript" src="../js/beranda.js"></script>
 </body>

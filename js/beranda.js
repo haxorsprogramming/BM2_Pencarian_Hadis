@@ -23,6 +23,11 @@ var divApps = new Vue({
     {
       $("#divUtama").load("beranda.php");
       $(".button-collapse").sideNav("hide");
+    },
+    cariHadisStatus : function()
+    {
+      $("#divUtama").load("cari-hadis-status.php");
+      $(".button-collapse").sideNav("hide");
     }
   },
 });
